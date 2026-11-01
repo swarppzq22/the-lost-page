@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>THE LOST PAGE - Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="website">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo">
+                THE LOST PAGE
+            </div>
+
+            <p>Welcome to my little corner of the internet.</p>
+
+            <div class="header-info">
+                Personal Homepage | Since 2005
+            </div>
+        </header>
+
+
+        <!-- NAVIGATION -->
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="#profile">PROFILE</a>
+            <a href="#diary">DIARY</a>
+            <a href="#archive">ARCHIVE</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+
+        <!-- MAIN LAYOUT -->
+        <div class="layout">
+
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar">
+
+                <div class="box">
+                    <h3>MENU</h3>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#profile">About Me</a></li>
+                        <li><a href="#diary">My Diary</a></li>
+                        <li><a href="#archive">Old Posts</a></li>
+                        <li><a href="#letter">Letters</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="box" id="profile">
+                    <h3>PROFILE</h3>
+
+                    <div class="avatar">
+                        NO IMAGE
+                    </div>
+
+                    <p>Name : nobody</p>
+                    <p>Age : 17</p>
+                    <p>Location : Thailand</p>
+                    <p>Status : Offline</p>
+                </div>
+
+
+                <div class="box">
+                    <h3>MUSIC PLAYER</h3>
+
+                    <p>Now Playing:</p>
+                    <p>Unknown Track</p>
+
+                    <button id="musicButton">
+                        PLAY MUSIC
+                    </button>
+
+                    <p class="small-text">
+                        Please enjoy your stay.
+                    </p>
+
+                    <audio id="bgMusic" loop>
+                        <source src="audio/bgm.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+            </aside>
+
+
+            <!-- MAIN CONTENT -->
+            <main class="content">
+
+                <div class="welcome">
+                    <h2>WELCOME!</h2>
+
+                    <p>
+                        Hello, thank you for visiting my website.
+                    </p>
+
+                    <p>
+                        This is my personal homepage.
+                    </p>
+
+                    <p>
+                        Last Updated : 06 / 18 / 2005
+                    </p>
+                </div>
+
+
+                <section class="post" id="diary">
+
+                    <h3>★ LATEST DIARY</h3>
+
+                    <div class="post-info">
+                        Posted by : nobody |
+                        Date : 18-06-2005
+                    </div>
+
+                    <p>
+                        สวัสดีทุกคน ไม่รู้ว่าจะมีใครเข้ามาอ่านหรือเปล่า
+                    </p>
+
+                    <p>
+                        วันนี้มีเรื่องแปลก ๆ อยากจะมาเล่าให้ฟัง
+                        เมื่อวานเราได้รับจดหมายฉบับหนึ่ง
+                        ไม่รู้ว่าใครส่งมาให้
+                    </p>
+
+                    <p>
+                        ข้างในเขียนว่าให้ส่งต่อจดหมายนี้
+                        ไปให้คนอื่นภายใน 7 วัน...
+                    </p>
+
+                    <a href="#letter">Read more &gt;&gt;</a>
+
+                </section>
+
+
+                <section class="post" id="letter">
+
+                    <h3>★ THE LETTER</h3>
+
+                    <div class="post-info">
+                        File : letter_01.txt
+                    </div>
+
+                    <p>
+                        "ถ้าคุณได้รับจดหมายฉบับนี้
+                        กรุณาส่งต่อให้กับคนอีก 5 คน"
+                    </p>
+
+                    <p>
+                        "อย่าทำลายจดหมายฉบับนี้
+                        และอย่าลืมว่าคุณได้รับมันมาเมื่อไหร่"
+                    </p>
+
+                    <a href="#archive">View Archive &gt;&gt;</a>
+
+                </section>
+
+
+                <section class="post" id="archive">
+
+                    <h3>★ OLD ENTRIES</h3>
+
+                    <ul class="archive-list">
+                        <li>
+                            <a href="#diary">
+                                18.06.2005 - Something strange happened
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#letter">
+                                19.06.2005 - The letter
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#archive">
+                                22.06.2005 - I don't understand
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#archive">
+                                25.06.2005 - Deleted entry
+                            </a>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </main>
+
+
+            <!-- RIGHT SIDEBAR -->
+            <aside class="right-sidebar">
+
+                <div class="box">
+                    <h3>INFORMATION</h3>
+
+                    <p>Welcome Guest!</p>
+
+                    <p>Members : 128</p>
+
+                    <p>Online : 03</p>
+
+                    <p>Updated : 2005</p>
+                </div>
+
+
+                <div class="box">
+                    <h3>LINKS</h3>
+
+                    <ul>
+                        <li><a href="#profile">My Profile</a></li>
+                        <li><a href="#diary">Diary</a></li>
+                        <li><a href="#archive">Archive</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="box">
+                    <h3>VISITOR</h3>
+
+                    <div class="counter">
+                        000128
+                    </div>
+
+                    <p class="small-text">
+                        Thank you for visiting.
+                    </p>
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="footer" id="contact">
+
+            <p>THE LOST PAGE © 2005</p>
+
+            <p>Best viewed at 1024 x 768 resolution.</p>
+
+            <p>Thank you for visiting my homepage.</p>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
